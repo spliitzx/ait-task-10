@@ -33,14 +33,14 @@
             cursor: pointer;
             color: $grey;
             transition: 0.15s;
+            outline: 0 none;
 
             &--selected {
                 color: $primary;
                 font-weight: 500;
-                transition: 0.15s;
 
                 &:hover {
-                    color: darken($primary, 5%) !important;
+                    color: $primary !important;
                 }
             }
 
