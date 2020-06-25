@@ -1,0 +1,12 @@
+.home {
+    &--header {
+        width: 480px;
+        margin-top: 10px;
+    }
+
+    &--content {
+        color: $grey;
+        font-weight: 200;
+        width: 700px;
+    }
+}
