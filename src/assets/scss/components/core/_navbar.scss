@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+
+    &-container {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 35px;
+        margin-bottom: 50px;
+    }
+
+    &--title {
+        text-transform: uppercase;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    &-items {
+        display: flex;
+        margin-left: auto;
+        margin-top: 5px;
+
+        &--item {
+            font-size: 17.5px;
+            font-weight: 200;
+            text-transform: uppercase;
+            padding-left: 50px;
+            cursor: pointer;
+            color: $grey;
+
+            &--selected {
+                color: $primary;
+                font-weight: 500;
+            }
+        }
+    }
+}
